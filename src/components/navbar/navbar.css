@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+nav, ul, li, a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.3rem 1rem;
+    color: #dadada;
+}
+
+input {
+    border-radius: 0.3rem;
+    background-color: #373943;
+    color: #dadada;
+    padding: 0.5rem;
+}
+.inputUser {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.user {
+    display: flex;
+    align-items: center;
+    margin-left: 1.25rem;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.3rem;
+}
+  
+.title {
+    color: white;
+}
+
+.wallet {
+    margin-left: 5rem;
+    margin-right: 0.5rem;
+}
+
